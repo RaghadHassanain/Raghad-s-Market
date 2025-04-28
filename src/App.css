@@ -21,11 +21,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #731dd6;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
